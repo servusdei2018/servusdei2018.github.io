@@ -1,6 +1,3 @@
-# Notes
-Collection of notes I took for various courses.
-
 ## Fall 2023
 - CM131 - General Chemistry I
 - [CS141 - Introduction to Computer Science I](f23/CS141.md)
