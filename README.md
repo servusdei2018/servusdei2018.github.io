@@ -6,6 +6,7 @@
 
 ## Spring 2024 `[WIP]`
 - [EE321 - Systems and Signal Processing](s24/EE321.md)
+- [ES100 - Introduction to MATLAB Programming](s24/ES100.md)
 - [MA211 - Discrete Mathematics & Proof](s24/MA211.md)
 - [MA232 - Elementary Differential Equations](s24/MA232.md)
 - [PH132 - Physics 2: Electricity & Magnetism](s24/PH132.md)
