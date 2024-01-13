@@ -14,7 +14,3 @@
 ## Spring 2025 `[TBA]`
 ## Fall 2025 `[TBA]`
 ## Spring 2026 `[TBA]`
-
-## Buy me a Coffee
-
-<a href="https://www.buymeacoffee.com/nbracy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 144px !important;" ></a>
