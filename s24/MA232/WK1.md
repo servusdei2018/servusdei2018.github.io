@@ -9,6 +9,9 @@
 
 4. $\frac{d^2y}{dx^2}=-k^2y$ for some constant $k>0$. This equation's general solution is $$y(x)=C_1cos(kx)+C_2sin(kx)$$
 
+## The Differential Equation
+A differential equation is an equation that involves the derivative(s) of an unknown function. A solution to a differential equation is a function that satisfies the equation.
+
 ## Classification of Differential Equations
 - *Ordinary differential equations* (ODE) are equations where the derivatives are taken with respect to only one variable; i.e., there is only one independent variable.
 - *Partial differential equations* (PDE) are equations that depend on partial derivatives of several variables; i.e., there are several independent variables.

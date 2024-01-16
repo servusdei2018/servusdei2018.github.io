@@ -13,7 +13,7 @@
 | T | F  |
 | F | T  |
 
-## de Morgen's Laws
+## de Morgan's Laws
 1. $\lnot(P\land Q) \equiv \lnot P\lor \lnot Q$
 2. $\lnot(P\lor Q) \equiv \lnot P\land \lnot Q$
 
