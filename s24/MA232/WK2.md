@@ -30,10 +30,10 @@ Some first order differential equations take the form $\frac{dy}{dx}=f(x)$ or $\
 > 1. Integrate both sides: $\int y' dx = \int 4x^3 dx$
 > 2. Therefore $y(x) = x^4+C$
 
-The equation $y(x)=x^4+C$ is the general solution to this differential equation.
+The equation $y(x)=x^4+C$ is the *general solution* to this differential equation.
 
 ### Initial Conditions
-Sometimes, an initial condition might be specified. This allows us to solve for $C$ and thereby arrive at a particular solution. For example:
+Sometimes, an initial condition might be specified. This allows us to solve for $C$ and thereby arrive at a *particular solution*. For example:
 
 > Solve the differential equation $y'=4x^3$ such that $y(0)=1$
 >
@@ -73,3 +73,6 @@ For example:
 > \therefore y(t) = \pm Ce^{5t}
 > $$
 > 5. Using the initial condition, $y(0)=2=C\cdot 1 \implies C=2$
+
+#### Singular Solutions
+Differential equations may have *singular solutions*: constant-value solutions which don't satisfy the general solution. E.g., $y \equiv 0$ is a solution to the differential equation $\frac{dy}{dx}=2xy^2$ whose general solution is $\frac{1}{C-x^2}$; observe $\frac{1}{C-x^2}\neq 0$ for all $C \in \real$.

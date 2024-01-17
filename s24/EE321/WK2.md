@@ -56,7 +56,11 @@ A\cdot v-\lambda\cdot v\cdot I=0\\
 v(A-\lambda\cdot I)=0\\
 $$
 
-If $v$ is non-zero, this equation only has a solution if $$|A-\lambda\cdot I|=0$$
+If $v$ is non-zero, this equation only has a solution if 
+
+$$
+|A-\lambda\cdot I|=0
+$$
 
 This is called the **characteristic equation** of $A$ and is an $n^{th}$ order polynomial with $n$ roots; these roots are the eigenvalues of $A$. 
 
