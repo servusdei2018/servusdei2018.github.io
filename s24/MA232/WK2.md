@@ -76,3 +76,5 @@ For example:
 
 #### Singular Solutions
 Differential equations may have *singular solutions*: constant-value solutions which don't satisfy the general solution. E.g., $y \equiv 0$ is a solution to the differential equation $\frac{dy}{dx}=2xy^2$ whose general solution is $\frac{1}{C-x^2}$; observe $\frac{1}{C-x^2}\neq 0$ for all $C \in \real$.
+
+## Visual Understanding of ODE Solutions

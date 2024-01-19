@@ -62,6 +62,24 @@ $$
 |A-\lambda\cdot I|=0
 $$
 
-This is called the **characteristic equation** of $A$ and is an $n^{th}$ order polynomial with $n$ roots; these roots are the eigenvalues of $A$. 
+This is called the **characteristic equation** of $A$ and is a monic polynomial of degree $n$; ergo, it has at most $n$ roots which are the eigenvalues of $A$. 
 
 For each eigenvalue $\lambda$ is a corresponding eigenvector. To find the eigenvector, each eigenvalue may be transferred into the equation $v(A-\lambda)=0$, the matrix $A-\lambda$ evaluated, and then the eigenvector $v$ deduced therefrom.
+
+## Matrix ?Division
+
+$P/Q \equiv PQ^{-1}$
+
+Suppose given $Ax=B$ we wish to find $x$.
+
+$A^{-1}Ax=A^{-1}B\\Ix=A^{-1}B \implies \textrm{solution for }x$
+
+
+### Cramer's Rule
+
+Let $\Delta = |A|$, $\Delta_1=|A_1|$ replace 1st column of $A$ with $B$, $...$, $\Delta_n = |A_n|$ replace $n$ -th column of A with B.
+
+## Other
+- Matrix rank
+- Matrix normalization
+- Condition number
