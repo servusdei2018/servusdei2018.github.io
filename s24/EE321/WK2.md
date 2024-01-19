@@ -83,3 +83,37 @@ Let $\Delta = |A|$, $\Delta_1=|A_1|$ replace 1st column of $A$ with $B$, $...$, 
 - Matrix rank
 - Matrix normalization
 - Condition number
+
+## Impulses
+
+### The Unit Impulse (Dirac Delta)
+$$
+{\displaystyle \delta (x)\simeq {\begin{cases}+\infty ,&x=0\\0,&x\neq 0\end{cases}}}
+$$
+which is constrained to satisfy the identity
+$$
+\int_{t=-\infin}^{\infin}{\delta(t)\,dt=1}
+$$
+
+Note that $\partial(t) = 0 \textrm{ if } t\neq 0$.
+
+### The Unit Impulse (Kronecker Delta)
+
+### Scaled Impulse
+$$
+\int_{-\infin}^{\infin}{A\delta(t)\,dt}=A\int_{-\infin}^{\infin}{\delta(t)\,dt}=A(1)=A
+$$
+
+### Time Shifted Impulse
+$$
+
+$$
+
+## Properties of the Unit Impulse
+
+#### Sifting Property
+(see also https://lpsa.swarthmore.edu/BackGround/ImpulseFunc/ImpFunc.html#sifting)
+
+$$
+x(t)\delta (t-t_0)=x(t_0)\delta(t-t_0)
+$$

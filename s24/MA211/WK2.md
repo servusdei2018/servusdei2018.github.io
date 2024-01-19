@@ -114,3 +114,136 @@ Inverse: If it does not snow tonight, then I will be happy.
 ## Two Important Claims
 - Note that $p\leadsto q\equiv\lnot q \leadsto\lnot p$
 - Additionally, $q\leadsto p\equiv\lnot p\leadsto\lnot q$.
+
+## Conditions
+
+- Necessary Condition: $p$ is necessary for $q$ means $\lnot p\leadsto\lnot q \equiv q\leadsto p$
+- Sufficient Condition: $p$ is sufficient for $q$ means $p\leadsto q$
+- Biconditional: $p \iff q$ reads "$p$ if and only if $q$" means $(p\leadsto q)\land(q\leadsto p)$ or $p \iff q$.
+
+P is necessary and sufficient for q means $p\iff q$.
+
+## Modus Ponens
+
+1. $p\leadsto q$
+2. $p$
+3. $\therefore q$
+
+### Truth table for Modus Ponens
+| $p$ | $q$ | $p\leadsto q$ (premise 1) | $p$ (premise 2) | $q$ (conclusion) |
+| - | - | - | - | - |
+| T | T | T | T | T |
+| T | F | F | T | F | 
+| F | T | T | F | T |
+| F | F | T | F | F |
+
+the first row in the truth table is called the **critical row**.
+
+Invalid (converse error): $p\leadsto q$, $q$, $\therefore p$. This is a fallacious syllogism.
+
+## Modus Tollens
+1. $p\leadsto q$
+2. $\lnot q$
+3. $\therefore\lnot p$
+
+*Modus tollens* is the contrapositive of *modus ponens*.
+
+> E.g.:
+> 1. If I'm tall then I wear socks
+> 2. I don't wear socks
+> 3. Therefore I am not tall
+
+Fallacy (Inverse Error):
+1. $p\leadsto q$
+2. $\lnot p$
+3. $\therefore\lnot q$
+
+> E.g.:
+> 1. If $n>2$ then n is positive
+> 2. $n\leq 2$
+> 3. $\therefore n$ is not positive
+
+## Generalization
+1. $p$
+2. $\therefore p\lor q$
+
+OR
+
+1. $q$
+2. $\therefore p\lor q$
+
+Such that the truth trable is
+
+| $p$ | $q$ | $p\lor q$ |
+| - | - | - |
+| T | T | T |
+| F | T | T |
+| T | F | T |
+| F | F | F |
+
+## Specialization
+
+1. $p\land q$
+2. $\therefore p$
+
+OR
+
+1. $p\land q$
+2. $\therefore q$
+
+Worded as "we have P and Q therefore we have P;" or, vice versa.
+
+## Elimination
+
+1. $p\lor q$
+2. $\lnot q$
+3. $\therefore p$
+
+OR
+
+1. $p\lor q$
+2. $\lnot p$
+3. $\therefore q$
+
+> E.g.
+> 1. $p\lor q\lor r$
+> 2. $\lnot q\land\lnot r$
+> 3. $\therefore p$
+
+## Transitivity
+
+1. $p\leadsto q$
+2. $q\leadsto r$
+3. $\therefore p\leadsto r$
+
+> E.g.
+> 1. If I am home on Saturday I will be bored
+> 2. If I'm bored on Saturday then I will eat pizza
+> 3. Therefore if I'm home on Saturday then I will eat pizza
+
+## Division into Cases
+1. $p\lor q$
+2. $p\leadsto r$
+3. $q\leadsto r$
+4. $\therefore r$
+
+## Contradiction Rule
+1. $\lnot p\leadsto c$
+2. $\therefore p$
+
+where $c$ is a contradiction (always-false).
+
+| $p$ | $\lnot p\leadsto c$ | $p$ (conclusion) |
+| - | - | - |
+| T | F |
+| F | T |
+
+(not p -> c is false when the statement p is true, because a conditional is false when the premise is true and the conclusion is false)
+
+> E.g.
+> Claim: $\pi+1$ is irrational
+> Proof:
+> 1. Suppose *by way of contradiction* (BWOC) that $\pi + 1$ is rational
+> 2. Since $\pi +1$ is rational, we can find two integers $m$ and $n$ such that $\pi +1=\frac{m}{n}$.
+> 3. Then it's the case that $\pi=\frac{m}{n}-1=\frac{m-n}{n}$ so it's the case that $\pi$ is rational
+> 4. Hence, by this contradiction is proven that $\pi +1$ is irrational
