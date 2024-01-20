@@ -79,7 +79,7 @@ $A^{-1}Ax=A^{-1}B\\Ix=A^{-1}B \implies \textrm{solution for }x$
 
 Let $\Delta = |A|$, $\Delta_1=|A_1|$ replace 1st column of $A$ with $B$, $...$, $\Delta_n = |A_n|$ replace $n$ -th column of A with B.
 
-## Other
+## Other (see also)
 - Matrix rank
 - Matrix normalization
 - Condition number
