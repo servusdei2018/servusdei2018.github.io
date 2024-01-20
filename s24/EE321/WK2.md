@@ -66,7 +66,7 @@ This is called the **characteristic equation** of $A$ and is a monic polynomial 
 
 For each eigenvalue $\lambda$ is a corresponding eigenvector. To find the eigenvector, each eigenvalue may be transferred into the equation $v(A-\lambda)=0$, the matrix $A-\lambda$ evaluated, and then the eigenvector $v$ deduced therefrom.
 
-## Matrix ?Division
+## Matrix Division
 
 $P/Q \equiv PQ^{-1}$
 
