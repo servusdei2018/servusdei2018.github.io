@@ -33,21 +33,25 @@ The conjugate of a complex number is given by $z^*=re^{-j\theta}$.
 - To find the conjugate of any number, we need only replace $j$ with $-j$ in that number.
 
 ### Properties of the Conjugate
-- $z+z^* = 2a = 2\Re(z)$ that is, the sum of a complex number and its conjugate is a real number equal to twice the number's real part.
+- The sum of a complex number and its conjugate is a real number equal to twice the number's real part:
 
-Thus, the real part of a complex number may be found thus:
+$$
+z+z^* = 2a = 2\Re(z)
+$$
+
+- Thus, the real part of a complex number may be found thus:
 
 $$
 \Re(z)=\frac{z+z^*}{2}
 $$
 
-Similarly, the imaginary part of a complex number may be found by
+- Similarly, the imaginary part of a complex number may be found by
 
 $$
 \Im(z)=\frac{z-z^*}{2j}
 $$
 
-The prouct of a complex number $z$ and its conjugate is the square of the number's magnitude:
+- The prouct of a complex number $z$ and its conjugate is the square of the number's magnitude:
 
 $$
 z\cdot z^*=|z|^2
