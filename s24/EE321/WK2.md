@@ -211,9 +211,56 @@ $$
 
 ## Properties of the Unit Impulse
 
-### Sifting Property
-(see also https://lpsa.swarthmore.edu/BackGround/ImpulseFunc/ImpFunc.html#sifting)
+### Evaluating the Integral of the Unit Impulse
+As previously mentioned, the integral of the unit impulse $=1$. We may express this more generally:
 
 $$
-x(t)\delta (t-t_0)=x(t_0)\delta(t-t_0)
+\int_{a}^{b}{\delta(t)\,dt}={\begin{cases}1 ,&a<0<b\\0,&otherwise\end{cases}}
 $$
+
+That is, the integral of the unit impulse *across a region including the origin* (where the impulse lies) is 1, and 0 otherwise.
+
+We may likewise express a time-shifted impulse as
+
+$$
+\int_{a}^{b}{\delta(t-\lambda)\,dt}={\begin{cases}1 ,&a<\lambda<b\\0,&otherwise\end{cases}}
+$$
+
+Let us now consider the integral of a function $f(t)$ product of the impulse $\delta(t)$ at the origin:
+
+$$
+\int_{-\infin}^{\infin}{\delta(t)\cdot f(t)\, dt}
+$$
+
+We may simplify this integral to
+
+$$
+\int_{-\infin}^{\infin}{\delta(t)\cdot f(0)\, dt}
+$$
+
+because the impulse is $0$ for $t\neq 0$. This is especially significant: for, it allows us to replace the product of two functions with the product of a function and a constant $f(0)$.
+
+Factoring the constant $f(0)$ out of our integral, we end up with a scaled impulse
+
+$$
+f(0)\cdot\int_{-\infin}^{\infin}{\delta(t)\,dt}
+$$
+
+which $=f(0)$.
+
+### Sifting Property
+
+From the above discussion, it follows that
+
+$$
+\int_{a}^{b}{\delta(t)\cdot f(t)\,dt}={\begin{cases}f(0) ,&a<0<b\\0,&otherwise\end{cases}}
+$$
+
+And for a time-shifted impulse:
+
+$$
+\int_{a}^{b}{\delta(t-\lambda)\cdot f(t)\,dt}={\begin{cases}f(0) ,&a<
+\lambda<b\\0,&otherwise\end{cases}}
+$$
+
+This property of the unit impulse is known as the **sifting property**. That is, the impulse function "sifts" through the function $f(t)$ and pulls out the value $f(0)$ or, for a time-shifted impulse, $f(\lambda)$.
