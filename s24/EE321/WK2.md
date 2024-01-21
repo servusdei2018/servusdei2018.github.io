@@ -135,7 +135,11 @@ ad-bc
 $$
 
 - The determinant of the $2\times 2$ identity matrix is 1
-- The determinant is 0 if both rows are the same: $${\begin{vmatrix}a&b\\a&b\end{vmatrix}}=ab-ba=0$$
+- The determinant is 0 if both rows are the same: 
+
+$$
+{\begin{vmatrix}a&b\\a&b\end{vmatrix}}=ab-ba=0
+$$
 
 The determinant of a $3\times 3$ matrix is
 
