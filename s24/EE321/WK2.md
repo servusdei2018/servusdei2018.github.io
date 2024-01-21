@@ -1,6 +1,81 @@
-# Week 2 - Review of Linear Algebra
+# Week 2 - Background Material
 
-## Matrix Multiplication
+## Review of Complex Numbers
+
+A complex number $z$ may be represented in Cartesian/rectangular form as
+$$
+z=a+jb
+$$
+where $a$ is called the *abscissa* and $b$ the *ordinate*. $a$ is the real part of $z$, and is denoted as $\Re(z)$; $b$ is the imaginary part of $z$ and is denoted $\Im(z)$.
+
+### Polar Coordinates
+If $(r,\theta)$ are the polar coordinates of $z=a+jb$ then $a=rcos(\theta) and b=rsin(\theta)$.
+
+Consequently, $z=a+jb=r(cos(\theta)+jsin(\theta))$.
+
+### Euler's Formula
+$$
+e^{j\theta}=cos(\theta)+jsin(\theta)
+$$
+
+thus, $z=re^{j\theta}$.
+
+### Reciprocal of a Complex Number
+The reciprocal of a complex number is given by $\frac{1}{z}=\frac{1}{r}e^{-j\theta}$.
+
+### Conjugate of a Complex Number
+The conjugate of a complex number is given by $z^*=re^{-j\theta}$.
+
+- Observe $z^*$ is a mirror of $z$ about the horizontal axis.
+- To find the conjugate of any number, we need only replace $j$ with $-j$ in that number.
+
+### Properties of the Conjugate
+- $z+z^* = 2a = 2\Re(z)$ that is, the sum of a complex number and its conjugate is a real number equal to twice the number's real part.
+
+Thus, the real part of a complex number may be found thus:
+$$
+\Re(z)=\frac{z+z^*}{2}
+$$
+
+Similarly, the imaginary part of a complex number may be found by
+$$
+\Im(z)=\frac{z-z^*}{2j}
+$$
+
+The prouct of a complex number $z$ and its conjugate is the square of the number's magnitude:
+$$
+z\cdot z^*=|z|^2
+$$
+
+### Computing Angles w/ Calculators
+When computing the angle of a complex number using $tan^{-1}
+$, the calculator will return a valid result in the first and fourth quadrants. If the angle appears in the second or third quadrants, the correct answer is arrived at by adding or subtracting $180\degree$ to the output. 
+
+### Arithmetical Operations on Complex Numbers
+To add and subtract complex numbers, convert into Cartesian form and add the Real and Imaginary components separately. The remainder of the operations may be performed in either Cartesian form or polar form; polar form is generally easier.
+
+#### Multiplication
+$$
+z_1z_2=r_1r_2e^{j(\theta_1+\theta_2)}
+$$
+
+#### Division
+$$
+\frac{z_1}{z_2}=\frac{r_1}{r_2}e^{j(\theta_1-\theta_2)}
+$$
+
+#### Exponentiation
+$$
+z^n=r^ne^{jn\theta}
+$$
+and
+$$
+z^{1/n}=r^{1/n}e^{j\theta/n}
+$$
+
+## Review of Linear Algebra
+
+### Matrix Multiplication
 - Given matrices $\bf A_{mn}$ and $\bf B_{np}$, with A's columns equalling B's rows $m=p$. 
 - The resulting matrix $\bf C_{nm}$ has the same number of rows as $\bf A$ and the same number of columns as $\bf B$.
 - With each element of C such that:
@@ -23,7 +98,6 @@ where $58 = (1,2,3)\cdot(7,9,11)$, $64 = (1,2,3)\cdot(8,10,12)$, etc.
 
 ### Determinants
 The determinant of a $2\times 2$ matrix is
-
 $$
 {\begin{vmatrix}a&b\\c&d\end{vmatrix}}
 =
@@ -32,6 +106,14 @@ $$
 
 - The determinant of the $2\times 2$ identity matrix is 1
 - The determinant is 0 if both rows are the same: $${\begin{vmatrix}a&b\\a&b\end{vmatrix}}=ab-ba=0$$
+
+The determinant of a $3\times 3$ matrix is
+$$
+{\begin{vmatrix} a&b&c\\d&e&f\\g&h&i\end{vmatrix}}=
+a{\begin{vmatrix} e&f\\h&i\end{vmatrix}}+
+b{\begin{vmatrix} d&f\\g&i\end{vmatrix}}+
+c{\begin{vmatrix} d&e\\g&h\end{vmatrix}}
+$$
 
 ### Identity Matrix
 The identity matrix is a square matrix that has ones along the main diagonal and zeros elsewhere.
@@ -44,7 +126,7 @@ $$
 
 - The identity matrix $I$ has the special property that $A\cdot I = I\cdot A = A$
 
-## Eigenvectors & Eigenvalues
+### Eigenvectors & Eigenvalues
 Given $A\cdot v=\lambda \cdot v$ where $A$ is a $n\times n$ matrix, $v$ is a non-zero vector in the $n$-th dimension, and $\lambda$ is scalar; any value of $\lambda$ for which this equation has a solution is an eigenvalue and $v$ its eigenvector.
 
 
@@ -66,38 +148,27 @@ This is called the **characteristic equation** of $A$ and is a monic polynomial 
 
 For each eigenvalue $\lambda$ is a corresponding eigenvector. To find the eigenvector, each eigenvalue may be transferred into the equation $v(A-\lambda)=0$, the matrix $A-\lambda$ evaluated, and then the eigenvector $v$ deduced therefrom.
 
-## Matrix Division
-
-$P/Q \equiv PQ^{-1}$
-
-Suppose given $Ax=B$ we wish to find $x$.
-
-$A^{-1}Ax=A^{-1}B\\Ix=A^{-1}B \implies \textrm{solution for }x$
-
-
-### Cramer's Rule
-
-Let $\Delta = |A|$, $\Delta_1=|A_1|$ replace 1st column of $A$ with $B$, $...$, $\Delta_n = |A_n|$ replace $n$ -th column of A with B.
-
-## Other (see also)
-- Matrix rank
-- Matrix normalization
-- Condition number
-
 ## Impulses
 
-### The Unit Impulse (Dirac Delta)
+### The Dirac Delta
+The unit impulse function (also known as the Dirac delta) is defined as $\delta(t)=0$ iff $t\neq 0$, or equivalently:
 $$
-{\displaystyle \delta (x)\simeq {\begin{cases}+\infty ,&x=0\\0,&x\neq 0\end{cases}}}
+{\displaystyle \delta (t)\simeq {\begin{cases}+\infty ,&t=0\\0,&t\neq 0\end{cases}}}
 $$
 which is constrained to satisfy the identity
 $$
 \int_{t=-\infin}^{\infin}{\delta(t)\,dt=1}
 $$
 
-Note that $\partial(t) = 0 \textrm{ if } t\neq 0$.
+The Dirac delta function is an example of a *continuous-time* signal; for, it is specified for every value of $t$.
 
-### The Unit Impulse (Kronecker Delta)
+### The Kronecker Delta
+The discrete-time impulse function (also known as the Kronecker delta) serves as the discrete-time counterpart to the continuous-time Dirac delta function and is defined thus:
+$$
+\delta[n]={\begin{cases}1 ,&n=0\\0,&n\neq 0\end{cases}}
+$$
+
+A *discrete-time* signal is specified only at discrete values of time. Ordinarily, the independent variable for discrete-time signals is represented by the integer $n$. Here, $n$ takes integer values and for a discrete-time signal $x[n]$, $x[n]$ denotes the $n$-th number in said sequence. Fundamentally, a discrete-time signal is a sequence of numbers, and may arise as a result of sampling continuous-time signals in sampled data systems and digital filtering.
 
 ### Scaled Impulse
 $$
