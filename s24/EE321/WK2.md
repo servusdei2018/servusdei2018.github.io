@@ -184,7 +184,7 @@ $$
 
 This is called the **characteristic equation** of $A$ and is a monic polynomial of degree $n$; ergo, it has at most $n$ roots which are the eigenvalues of $A$. 
 
-For each eigenvalue $\lambda$ is a corresponding eigenvector. To find the eigenvector, each eigenvalue may be transferred into the equation $v(A-\lambda)=0$, the matrix $A-\lambda$ evaluated, and then the eigenvector $v$ deduced therefrom.
+For each eigenvalue $\lambda$ is a corresponding eigenvector. To find the eigenvector, each eigenvalue may be transferred into the equation $v(A-\lambda\cdot I)=0$, the matrix $A-\lambda\cdot I$ evaluated, and then the eigenvector $v$ deduced therefrom.
 
 ## The Unit Impulse
 
