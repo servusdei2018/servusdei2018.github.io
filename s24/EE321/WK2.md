@@ -11,9 +11,18 @@ $$
 where $a$ is called the *abscissa* and $b$ the *ordinate*. $a$ is the real part of $z$, and is denoted as $\Re(z)$; $b$ is the imaginary part of $z$ and is denoted $\Im(z)$.
 
 ### Polar Coordinates
-If $(r,\theta)$ are the polar coordinates of $z=a+jb$ then $a=rcos(\theta) and b=rsin(\theta)$.
+If $(r,\theta)$ are the polar coordinates of $z=a+jb$ then
 
-Consequently, $z=a+jb=r(cos(\theta)+jsin(\theta))$.
+$$
+a=rcos(\theta)\\
+b=rsin(\theta)
+$$
+
+Consequently, 
+
+$$
+z=a+jb=r(cos(\theta)+jsin(\theta))
+$$
 
 ### Euler's Formula
 
@@ -21,7 +30,11 @@ $$
 e^{j\theta}=cos(\theta)+jsin(\theta)
 $$
 
-thus, $z=re^{j\theta}$.
+thus, 
+
+$$
+z=re^{j\theta}
+$$
 
 ### Reciprocal of a Complex Number
 The reciprocal of a complex number is given by $\frac{1}{z}=\frac{1}{r}e^{-j\theta}$.
