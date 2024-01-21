@@ -8,6 +8,7 @@
 - $\not\equiv$ not equivalent
 
 ## Truth Table
+
 | P | ~P |
 | - | -- |
 | T | F  |
@@ -28,6 +29,7 @@
 $P \leadsto Q$ "if P then Q"
 
 #### Truth Table
+
 | P | Q | $P\leadsto Q$ |
 | - | - | - |
 | T | T | T |
@@ -40,6 +42,7 @@ $P \leadsto Q$ "if P then Q"
 Notice this statement is only false when hypothesis is true and conclusion is false. This is *vacuously true*, or true by default.
 
 E.g.
+
 | P | q | $P \land \lnot Q$ | $P\land \lnot Q \leadsto \lnot P$ |
 | - | - | - | - |
 | T | T | F | T |
@@ -66,7 +69,8 @@ i.e. $\lnot(p\leadsto q)$ is $p\land \lnot q$.
 
 For example:
 
-> Negate: if x>2 then x>1
+> Negate: if x>2 then x>
+>
 > $$\lnot(x>2 \leadsto x>1)\\
 > \equiv x>2 \land x \leq 1
 > $$
@@ -74,16 +78,23 @@ For example:
 Or:
 
 > Negate" if n is prime then n>1
-> $$\lnot(\textrm{n is prime }\leadsto n>1)\equiv \textrm{n is prime } \land n \leq 1$$
+>
+> $$
+> \lnot(\textrm{n is prime }\leadsto n>1)\equiv \textrm{n is prime } \land n \leq 1
+> $$
 
 Or:
 
 > Negate: if n is prime then n > 1 and n has no divisors other than 1 and itself
-> $$\lnot(\textrm{statement above}) \equiv \textrm{n is prime and n }\leq 1\textrm{ or n has a divisor other than itself and 1}$$
+>
+> $$
+> \lnot(\textrm{statement above}) \equiv \textrm{n is prime and n }\leq 1\textrm{ or n has a divisor other than itself and 1}
+> $$
 
 Also: $A\land (B\lor C) \equiv (A \land B)\lor(A\land C)$
 
 ## Contrapositive
+
 Given $p\leadsto q$, $\lnot q \leadsto \lnot p$
 
 E.g. "if it snows tonight, then I will be unhappy"
@@ -91,6 +102,7 @@ E.g. "if it snows tonight, then I will be unhappy"
 Contrapositive: If I will be happy, then it will not snow tonight.
 
 ## Converse
+
 Given $p\leadsto q$, $q\leadsto p$
 
 E.g. "if it snows tonight, then I will be unhappy"
@@ -98,6 +110,7 @@ E.g. "if it snows tonight, then I will be unhappy"
 Converse: If I will be unhappy, then it will snow tonight.
 
 ## Inverse
+
 Given $p\leadsto q$, $\lnot p \leadsto \lnot q$
 
 E.g. "if it snows tonight, then I will be unhappy"
@@ -130,6 +143,7 @@ P is necessary and sufficient for q means $p\iff q$.
 3. $\therefore q$
 
 ### Truth table for Modus Ponens
+
 | $p$ | $q$ | $p\leadsto q$ (premise 1) | $p$ (premise 2) | $q$ (conclusion) |
 | - | - | - | - | - |
 | T | T | T | T | T |
