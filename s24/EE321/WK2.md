@@ -125,6 +125,8 @@ $$
 
 where $58 = (1,2,3)\cdot(7,9,11)$, $64 = (1,2,3)\cdot(8,10,12)$, etc.
 
+It is important to note that in matrix multiplication, the **commutative property does not hold.** That is, $AB\neq BA$
+
 ### Determinants
 The determinant of a $2\times 2$ matrix is
 
@@ -232,7 +234,6 @@ $$
 
 ## Properties of the Unit Impulse
 
-### Evaluating the Integral of the Unit Impulse
 As previously mentioned, the integral of the unit impulse $=1$. We may express this more generally:
 
 $$
