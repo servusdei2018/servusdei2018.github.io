@@ -281,7 +281,7 @@ $$
 And for a time-shifted impulse:
 
 $$
-\int_{a}^{b}{\delta(t-\lambda)\cdot f(t)\,dt}={\begin{cases}f(0) ,&a<
+\int_{a}^{b}{\delta(t-\lambda)\cdot f(t)\,dt}={\begin{cases}f(\lambda) ,&a<
 \lambda<b\\0,&otherwise\end{cases}}
 $$
 
