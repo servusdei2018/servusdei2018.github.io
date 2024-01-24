@@ -21,3 +21,12 @@ $$
 $$
 u(t-t_0) = {\begin{cases}1,&t\geq t_0\\0,&otherwise\end{cases}}
 $$
+
+- Time-limited Pulse
+
+$$
+p(t)=u(t)-u(t-t_0)
+$$
+
+- - This pulse has finite energy
+- - It has many applications, e.g. binary transmission 
