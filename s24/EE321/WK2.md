@@ -275,7 +275,7 @@ which $=f(0)$.
 From the above discussion, it follows that
 
 $$
-\int_{a}^{b}{\delta(t)\cdot f(t)\,dt}={\begin{cases}f(0) ,&a<0<b\\0,&otherwise\end{cases}}
+\int_{a}^{b}{\delta(t)\cdot f(t)\,dt}={\begin{cases}f(0),&a<0<b\\0,&otherwise\end{cases}}
 $$
 
 And for a time-shifted impulse:
