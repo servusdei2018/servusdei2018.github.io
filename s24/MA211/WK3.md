@@ -59,6 +59,10 @@ $$
 
 The universal quantifier $\forall$ "for all" applies to universal statements (e.g. $\forall x\in D,Q(x)$ -- for all values of $x$ in $D$, some $Q(x)$ is true). Such statements are true iff $Q(x)$ is true for every $x\in D$ and false iff $Q(x)$ is false for at least one $x\in D$ (counterexample).
 
+> E.g. $\forall x\in D, x^2\geq x$
+> 1. When $D=\{1,2,3\}$ is true, because it can be verified in each case
+> 2. $D=\R$ is false by counterexample: $\frac{1}{2}=\frac{1}{4}\lt\frac{1}{2}$
+
 ## Existential Quantifier
 
 The existential quantifier $\exists$ "there exists" applies to existential statements. E.g. $\exists x\in D\,s.t.\,Q(x)$ - there exists $x$ in $D$ such that $Q(x)$ is true. Such statements are true iff $Q(x)$ is true for at least one $x$ and false iff it's always false for all $x\in D$.
@@ -68,3 +72,54 @@ The existential quantifier $\exists$ "there exists" applies to existential state
 > 1. where the domain of $Q(n)$ is $\Z^+$: $\{1,2,4,8\}$
 > 2. where the domain of $Q(n)$ Is $\Z$: $\{-1,-2,-4,-8,1,2,4,8\}$
 > 
+
+> E.g. true/false
+> 1. $\exists m\in\Z^+\,s.t.\, m^2=m$ true since $1\in\Z^+\,and\,1^2=1$.
+> 2. $\exists m\in\{2,3,4\}\,s.t.\,m^2=m$ false since for each case $m^2\neq m$.
+
+## Translating between Formal and Informal Language
+
+Rewrite informally:
+
+1. $\forall x\in\R,\,x^2\geq 0$ "Every real number's square is greater than or equal to zero"
+
+2. $\forall x\in\R,\,x^2\neq -1$ "Every real number's square is not equal to minus one" or "There is no real number whose square is minus one"
+
+3. $\exists x\in\Z^+\,s.t.\, x\in\Z$ "A positive integer is an integer"
+
+Write formally:
+
+1. "All triangles have three sides" $\forall t\in T\,s.t.\, t\in 3S$ Or *$t$ has three sides, $\forall$ triangles $t$*
+
+2. "No dogs have wings" $\forall d\in D,\,s.t.\, d\notin W$ Or *$\forall$ dogs $d$, $d$ does not have wings*
+
+Rewrite informally:
+
+1. $\forall x\in\R$, if $x\gt 2$ then $x^2\gt 4$ "If a real number is greater than two then its square is greater than four"
+
+Rewrite formally:
+
+1. "No fire trucks are green" $\forall t\in T,\,s.t.\, t\notin G$ or *$\forall$ fire trucks $f$, $f$ is not green*
+
+## Negation of Universal/Existential Statements
+
+1. $\lnot(\forall x\in D, Q(x)) \equiv \exists x\in D\,s.t.\, \lnot Q(x) $
+2. $\lnot(\exists x\in D, Q(x)) \equiv \forall x\in D,\,\lnot Q(x)$
+
+And for conditional statements:
+
+3. $\lnot(\forall x\in D,\,p(x)\leadsto q(x)) \equiv \exists x\in D\, s.t.\, \lnot(p(x)\leadsto q(x))$
+
+Recall $\lnot(p\leadsto q)\equiv \lnot(\lnot p\lor q) \equiv p\land\lnot q$
+
+Therefore
+
+$$
+\lnot(\forall x\in D,\,p(x)\leadsto q(x)) \equiv \exists x\in D\, s.t.\, p(x)\land\lnot q(x)
+$$
+
+4. $\lnot(\exists x\, D,\,p(x)\leadsto q(x)) \equiv \forall x\in D,\, \lnot(p(x)\leadsto q(x)) \equiv \forall x\in D,\, p(x)\land\lnot q(x)$
+
+#### Examples
+
+- $\lnot$($\forall$ primes $p$, $p$ is odd) $\equiv$ $\exists$ a prime $p$ such that $p$ is not odd
