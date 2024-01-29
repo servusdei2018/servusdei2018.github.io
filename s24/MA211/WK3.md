@@ -123,3 +123,20 @@ $$
 #### Examples
 
 - $\lnot$($\forall$ primes $p$, $p$ is odd) $\equiv$ $\exists$ a prime $p$ such that $p$ is not odd
+
+## Integers
+
+1. An integer is *even* if $\exists m\in\Z$ such that $n=2m$
+2. An integer is *odd* if $\exists m\in\Z$ such that $n=2m+1$
+
+> E.g. $2$ is even because $2=2(1)$ where $n=2$ and $m=1$
+>
+> E.g. $3$ is odd since $3=2(1)+1$ where $n=3$ and $m=1$
+
+## Constructive Proof of Existence
+
+E.g. show $\exists m,n\in\Z$ such that $m>1,n>1$ and $\frac{1}{m}+\frac{1}{n}\in\Z$
+
+For example, $m=2,n=2$ then $\frac{1}{m}+\frac{1}{n}=\frac{1}{2}+\frac{1}{2}=1\in\Z$.
+
+- Note: if $m>1,n>1$ then $\frac{1}{m}+\frac{1}{n}=\frac{n+m}{mn}$. 
