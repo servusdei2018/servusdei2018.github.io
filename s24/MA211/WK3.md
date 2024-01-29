@@ -135,8 +135,56 @@ $$
 
 ## Constructive Proof of Existence
 
+#### #4
+
 E.g. show $\exists m,n\in\Z$ such that $m>1,n>1$ and $\frac{1}{m}+\frac{1}{n}\in\Z$
 
 For example, $m=2,n=2$ then $\frac{1}{m}+\frac{1}{n}=\frac{1}{2}+\frac{1}{2}=1\in\Z$.
 
-- Note: if $m>1,n>1$ then $\frac{1}{m}+\frac{1}{n}=\frac{n+m}{mn}$. 
+- Note: if $m>1,n>1$ then $\frac{1}{m}+\frac{1}{n}=\frac{n+m}{mn}$ would be an integer if $n+m$ is divisble by $mn$.
+
+#### #6
+
+E.g. $\exists a,b\in\R$ such that $\sqrt{a+b}=\sqrt{a}+\sqrt{b}$.
+
+One such solution is $a=0,b=0$ for which $\sqrt{0+0}=0=\sqrt{0}+\sqrt{0}$
+
+Alternatively, let $a\in\R,b=0$ for which $\sqrt{a+0}=\sqrt{a}=\sqrt{a}+\sqrt{0}$ or vice versa, $a=0,b\in\R$ such that the aforementioned still holds.
+
+## Disproving a Universal Statement by Counterexample
+
+#### #12
+
+Disprove: $\forall n\in\Z$, if $n$ is odd then $\frac{n-1}{2}$ is odd.
+
+This is false, by counterexample $n=5$ for which $\frac{5-1}{2}=\frac{4}{2}=2$ and $2$ is even.
+
+The negation of the above statement $\lnot(\forall,p\leadsto q) \equiv \exists$ such that $p\land\lnot q$. In this case, $\exists n\in\Z$ such that $n$ is odd but $\frac{n-1}{2}$ is even.
+
+Observe that finding a counterexample is equivalent to finding a case for which the negation of a universal statement holds true.
+
+#### #13
+
+Disprove: $\forall m,n\in\Z$ if $2m+n$ is odd then $m,n$ are both odd.
+
+This is false. The negation of the above statement is $\exists (m,n\in\Z)$ such that $2m+n$ is odd but at least one of $m,n$ is not odd (i.e. even).
+
+Note: $m=n=0$ satisfies this negation.
+
+Another example is $(m=2,\,n=1)\lor(m=0,\,n=1)$.
+
+## Proving Universal Statements
+
+#### #28
+
+Prove: for all integers $n$, if $n$ is odd then $n^2$ is odd
+
+Proof.
+
+1. Let $n\in\Z$ such that $n$ is odd
+2. Since $n$ is odd, \exists m\in\Z$ such that $n=2m+1$ (by definition of odd)
+3. Consider 
+
+$$
+n^2=(2m+1)^2\\= 4m^2+4m+1
+$$
