@@ -34,7 +34,7 @@ where $T_0=\frac{2\pi}{\omega_0}$
 
 ## Truncated Signal
 
-A signal may be truncated by multiplying it by a pulse.
+A signal may be truncated by multiplying it by a pulse. The resulting signal is defined within the window bounded by the pulse.
 
 ## Sinc Function
 
@@ -42,6 +42,18 @@ The $sinc()$ function is defined as
 
 $$
 sinc(t)=\frac{sin(t)}{t}
+$$
+
+It is important to note that $sinc(0)=1$, for 
+
+$$
+\lim_{t\to 0} sin(t)=t
+$$
+
+therefore
+
+$$
+\lim_{t\to 0} \frac{sin(t)}{t}=\lim_{t\to 0}\frac{t}{t}=1
 $$
 
 - We shall later see that $sinc()$ and the rectangular pulse are related through the Fourier transformation.
