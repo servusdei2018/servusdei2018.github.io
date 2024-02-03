@@ -188,3 +188,59 @@ Proof.
 $$
 n^2=(2m+1)^2\\= 4m^2+4m+1
 $$
+
+## Real Numbers
+
+A real number $r$ is rational ($r\in\mathbb{Q}34$) if
+
+$$
+\exists m,n\in\Z,\,n\neq 0
+$$
+
+such that
+
+$$
+r=\frac{m}{n}
+$$
+
+- A real number is irrational if it is not rational $r\notin\mathbb{Q}$
+
+> E.g. is $0$ rational? Yes, because you can write $0$ as $\frac{0}{n}\,\forall n\in\Z$
+
+> E.g. is $\frac{1}{0}$ rational? No, 1/0 is not even a real number
+
+> E.g. is $0.23$ rational? Yes because $0.23=\frac{23}{100}$.
+
+> E.g. is $\sqrt{2}$ rational? No, but not trivial
+
+> E.g. if $m,n\in\Z$, $n\neq 0$, $m\neq 0$, is $\frac{m+n}{mn}$ rational? Yes since $m+n$ and $mn$ are integers (sum, product respectively); also, $m\neq 0$ and $n\neq 0\,\implies\, mn\neq 0$ (zero product property).
+
+### Zero Product Property
+
+If $mn=0$ then $m=0$ or $n=0$.
+
+Contrapositive: If $\lnot(m=0 \lor n=0)$ then $\lnot(mn=0) \equiv$ if $m\neq 0 \land n\neq 0$ then $mn\neq 0$.
+
+### Theorem: Every integer is a rational number
+
+Proof: Suppose $n\in\Z$, then $n=\frac{n}{1}$ therefore $n$ is rational (by definition of rational).
+
+### Theorem: The sum of two rational numbers is rational
+
+Proof: Let $r,s\in\mathbb{Q}$.
+
+Since $r\in\mathbb{Q}$, $\exists m,n\in\Z$, $n\neq 0$ such that $=\frac{m}{n}$.
+
+Since $s\in\mathbb{Q}$, $\exists k,l\in\Z$, $l\neq 0$ such that $s=\frac{k}{l}$
+
+Consider $r+s=\frac{m}{n}+\frac{k}{l} =\frac{ml+kn}{nl}$.
+
+It follows that $r+s$ is a ratio of integers, and the denominator $nl\neq 0$ (since $n\neq 0$ and $l\neq 0$ by the zero product property). Hence, $r+s\in\mathbb{Q}$ as required. QED.
+
+### Corollary (of the above theorem): The double of any rational number is a rational number [$\forall r\in\R$ if $r\in\mathbb{Q}$ then $2r\in\mathbb{Q}$]
+
+Proof.
+
+$r\in\mathbb{Q}$ then $2r=r+r$ is a sum of rationals.
+
+Therefore by the last proof, QED.
