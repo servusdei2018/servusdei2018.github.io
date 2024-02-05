@@ -57,3 +57,55 @@ $$
 $$
 
 - We shall later see that $sinc()$ and the rectangular pulse are related through the Fourier transformation.
+- Note that sinc is 0 at $t=n$-th values of $\pi$.
+
+### Sketching $sin(\omega_0(t-t_0))$
+
+- First crossing at $t=t_0$
+- For $sin(\omega_0 t-\omega_0 t_0)$, $w_0 t_0$ is constant and the phase shift.
+- $w_0 t$=$n\pi$, thus $t=\frac{n\pi}{\omega_0}$. The spacing between crossings therefore is $\frac{\pi}{\omega_0}$.
+
+## Exponentials
+
+Exponential signals take the form
+
+$$
+x(t)=Ae^{\beta t}
+$$
+
+- When $\beta>0$, the signal is increasing
+- When $\beta<0$, the signal is decreasing
+- When $t=0$, we have our y-intercept at $y=A$.
+
+### Multiplying Signals with Exponentials
+
+- Growing sinusoid: $x(t)=Ae^{\Beta t}cos(\omega_0 t),\, \beta >0$
+- Decaying sinusoid:  $x(t)=Ae^{\Beta t}cos(\omega_0 t),\, \beta <0$
+
+## Complex Exponentials / Complex Sinusoids
+
+From Euler's formula, we have
+
+$$
+re^{j\omega_0 t}=r[cos(\omega_0 t)+jsin(\omega_0 t)]\\
+Re[re^{j\omega_0 t}=rcos(\omega_0 t)\\
+Im[re^{j\omega_0 t}=rsin(\omega_0 t)]
+$$
+
+Magnitude and phase:
+$$
+|re^{j\omega_0 t}|=|r|\sqrt{cos(\omega_0 t)^2+sin(\omega_0 t)^2}=r\\
+\angle{re^{j\omega_0 t}}=arctan(\frac{rsin(\omega_0 t)}{rcos(\omega_0 t)})=\omega_0 t
+$$
+
+### Operations on Complex Sinusoids
+
+The conjugate of a complex sinusoid is:
+
+$$
+(e^{j\omega_0 t})^*=e^{-j\omega_0 t}=cos(\omega_0 t)-jsin(\omega_0 t)\\
+Re[conj]=cos(\omega_0 t)\\
+Im[conj]=-sin(\omega_0 t)\\
+|conj| = 1\\
+\angle{conj}=-\omega_0 t
+$$
