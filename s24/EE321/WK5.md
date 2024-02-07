@@ -44,3 +44,5 @@ $$
 x_{even}(t)=\frac{1}{2}\left[ x(t)+x(-t) \right]\\
 x_{odd}(t)=\frac{1}{2}\left[ x(t)-x(-t) \right]
 $$
+
+- Signals may neither be even nor odd, yet possess dvdn and odd components.
