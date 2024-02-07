@@ -109,3 +109,19 @@ Im[conj]=-sin(\omega_0 t)\\
 |conj| = 1\\
 \angle{conj}=-\omega_0 t
 $$
+
+### Rewriting Sinusoids
+
+Any sinusoid can be written in terms of complex exponentials
+
+$$
+A \cos(\omega_0 t+\phi)=\frac{A}{2}e^{j\phi}e^{j\omega_0 t}+\frac{A}{2}e^{-j\phi}e^{-j\omega_0 t}\\
+A \sin(\omega_0 t+\phi)=\frac{A}{j2}e^{j\phi}e^{j\omega_0 t}+\frac{A}{j2}e^{-j\phi}e^{-j\omega_0 t}
+$$
+
+Alternately,
+
+$$
+A\cos(\omega_0 t+\phi)=A Re[e^{j(\omega_0 t+\phi)}]\\
+A\sin(\omega_0 t+\phi)=A Im[e^{j(\omega_0 t+\phi)}]
+$$
