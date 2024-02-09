@@ -36,6 +36,8 @@ $$
 x(t)=-x(-t)
 $$
 
+- For an odd function, $f(-x)=-f(x)$
+
 ## Rewriting Signals using Symmetry
 
 Any signal may be separated into even and odd components
@@ -45,4 +47,5 @@ x_{even}(t)=\frac{1}{2}\left[ x(t)+x(-t) \right]\\
 x_{odd}(t)=\frac{1}{2}\left[ x(t)-x(-t) \right]
 $$
 
-- Signals may neither be even nor odd, yet possess dvdn and odd components.
+- Signals may neither be even nor odd, yet possess even and odd components.
+- In that case, $x_{even}+x_{odd}=x(t)$
