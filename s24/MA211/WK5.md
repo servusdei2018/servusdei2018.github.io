@@ -98,3 +98,47 @@ and we see $s\in\mathbb{Q}$ which contradicts our assumption that $s\notin\mathb
 ---
 
 E.g. the product of any (non-zero) rational and any irrational is irrational.
+
+## Quotient Remainder / Proof by Division into Cases
+
+Theorem: Given any integer $n$ and positive integer $d$, there exist unique integers $q, r$ such that $n=dq+r, 0\leq r<d$.
+
+E.g. $n=-54,d=4$, $-54=4(-14)+2$
+
+## Representation of Integers (Parity Property of Integers)
+
+Any integer is even or odd.
+
+$\forall n\in\Z$, $n=2k \lor n=2k+1$.
+
+Proof.
+
+Apply the quotient remainder theorem to $n\in\Z$ with $d=2$:
+
+$n=2q+r$, $0\leq r<2$
+
+Note there are two cases, $r=0$ and $r=1$.
+
+Case 1: $r=0,n=2q$ where $q\in\Z$ hence $n$ is even
+
+Case 2: $r=1,n=2q+1$ where $q\in\Z$ hence $n$ is odd
+
+In either case, the result follows.
+
+Note: We proved in 4.5 that $n\in\Z$ can't be both even and odd.
+
+## Parity of Consecutive Integers
+
+Any two consecutive integers have opposite parity.
+
+Proof.
+
+Suppose $n\in\Z$, hence $n+1$ is the successor of $n$. Then $n$ is either even or odd.
+
+Case 1: $n$ even. If $n$ is even, $\exists k\in\Z$ such that $n=2k$ so $n+1=2k+1$ is odd.
+
+Case 2: $n$ odd. If $n$ is odd, $\exists k\in\Z$ such that $n=2k+1$ so $2k+1+1=2k+2=2(k+1)$; so $n+1$ is even.
+
+Since cases 1 and 2 are exhaustive (by quotient remainder theorem), the result follows.
+
+##  
