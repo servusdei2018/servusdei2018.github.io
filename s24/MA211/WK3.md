@@ -191,7 +191,7 @@ $$
 
 ## Real Numbers
 
-A real number $r$ is rational ($r\in\mathbb{Q}34$) if
+A real number $r$ is rational ($r\in\mathbb{Q}$) if
 
 $$
 \exists m,n\in\Z,\,n\neq 0
