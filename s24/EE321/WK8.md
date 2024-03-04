@@ -82,3 +82,12 @@ Verify whether the following systems are time invariant (TI) or time variant (TV
 2. $y(t)=3x(t)$
 3. $y(n)=(n+1)x(n)$
 4. $y(t)=x(3t)$
+
+## Linearity
+
+A function is linear if it has these properties:
+
+1. Homogeneity (scaling): $f(ax)=af(x)$
+2. Additivity: $f(x_1+x_2)=f(x_1)+f(x_2)$
+
+These two properties together are known as the **principle of superposition.**
