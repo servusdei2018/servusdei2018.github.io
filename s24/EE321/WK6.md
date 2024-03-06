@@ -15,3 +15,10 @@ For a signal $x(t)=x(t+T)$,
 - $f=\frac{1}{T}$ is the frequency
 - $\omega = 2\pi f$ is the angular frequency
 
+## Period of $\sin$ and $\cos$
+
+The period of $\sin(k\pi)$ and $\cos(k\pi)$ is $\frac{2\pi}{k}$.
+
+## Compound Periods
+
+If $p$ is a period of $f(x)$ and $g$ is any function, then $p$ is a period of $g(f(x))$.
