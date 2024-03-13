@@ -33,6 +33,6 @@ $$
 
 ## Properties of Convolution
 
-- Commutative: $f \mathord{*} g = g \mathord{*} f$
+- Commutative: $ f\mathord{*}g = g\mathord{*}f $
 - Associative
 - Distributive
