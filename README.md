@@ -11,7 +11,7 @@
 - [MA232 - Elementary Differential Equations](s24/MA232.md)
 - [PH132 - Physics 2: Electricity & Magnetism](s24/PH132.md)
 
-## Fall 2024 `[WIP]`
+## Fall 2024
 - CS242 - Adv Prog Concepts in Java
 - EE262 - Intro to Object-Oriented Progr
 - EE264 - Intro to Digital Design
@@ -19,6 +19,13 @@
 - ES250 - Electrical Science
 - STAT383 - Probability and Statistics
 
-## Spring 2025 `[TBA]`
+## Spring 2025
+- CS344 - Algorithms and Data Structures
+- EE211 - ECE Laboratory I
+- EE260 - Embedded Systems
+- EE361 - Fundamentals of Software Eng
+- EE465 - Computer Graphics
+- MA339 - Applied Linear Algebra 
+
 ## Fall 2025 `[TBA]`
 ## Spring 2026 `[TBA]`
