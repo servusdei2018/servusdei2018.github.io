@@ -9,7 +9,7 @@
 - [ES100 - Introduction to MATLAB Programming](s24/ES100.md)
 - [MA211 - Discrete Mathematics & Proof](s24/MA211.md)
 - [MA232 - Elementary Differential Equations](s24/MA232.md)
-- [PH132 - Physics 2: Electricity & Magnetism](s24/PH132.md)
+- [PH132 - Physics 2](s24/PH132.md)
 
 ## Fall 2024
 - [CS242 - Adv Prog Concepts in Java](https://github.com/servusdei2018/clack)
@@ -23,9 +23,9 @@
 - [CS344 - Algorithms and Data Structures](https://github.com/servusdei2018/cs344)
 - EE211 - ECE Laboratory I
 - EE260 - Embedded Systems
-- EE361 - Fundamentals of Software Eng
+- EE361 - Fundamentals of Software Engineering
 - [EE465 - Computer Graphics](https://github.com/servusdei2018/cs452)
-- MA339 - Applied Linear Algebra 
+- MA339 - Applied Linear Algebra
 
 ## Fall 2025 `[TBA]`
 ## Spring 2026 `[TBA]`
