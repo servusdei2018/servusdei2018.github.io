@@ -12,19 +12,19 @@
 - [PH132 - Physics 2: Electricity & Magnetism](s24/PH132.md)
 
 ## Fall 2024
-- CS242 - Adv Prog Concepts in Java
-- EE262 - Intro to Object-Oriented Progr
+- [CS242 - Adv Prog Concepts in Java](https://github.com/servusdei2018/clack)
+- [EE262 - Intro to Object-Oriented Programming](https://github.com/servusdei2018/slinky)
 - EE264 - Intro to Digital Design
 - EE407 - Computer Networks
 - ES250 - Electrical Science
-- STAT383 - Probability and Statistics
+- [STAT383 - Probability and Statistics](https://github.com/servusdei2018/stat383-project)
 
 ## Spring 2025
-- CS344 - Algorithms and Data Structures
+- [CS344 - Algorithms and Data Structures](https://github.com/servusdei2018/cs344)
 - EE211 - ECE Laboratory I
 - EE260 - Embedded Systems
 - EE361 - Fundamentals of Software Eng
-- EE465 - Computer Graphics
+- [EE465 - Computer Graphics](https://github.com/servusdei2018/cs452)
 - MA339 - Applied Linear Algebra 
 
 ## Fall 2025 `[TBA]`
