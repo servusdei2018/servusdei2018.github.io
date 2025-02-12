@@ -26,6 +26,3 @@
 - EE361 - Fundamentals of Software Engineering
 - [EE465 - Computer Graphics](https://github.com/servusdei2018/cs452)
 - MA339 - Applied Linear Algebra
-
-## Fall 2025 `[TBA]`
-## Spring 2026 `[TBA]`
